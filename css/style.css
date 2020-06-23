@@ -1,0 +1,23 @@
+.bgblue {
+  background-color: #0061ff;
+}
+
+.mslogo {
+  height: 20px;
+}
+
+.msnav {
+  margin-bottom: 0;
+}
+
+.bgjumbotron {
+  background-color: transparent;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.bgform {
+  background-color: white;
+  margin-top: 80px;
+  border-radius: 5px;
+}
