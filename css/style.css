@@ -7,13 +7,12 @@
 
 .bgjumbotron {
   background-color: transparent;
-  margin-top: 180px;
-  margin-bottom: 180px;
+  margin-top: 50px;
 }
 
 .bgform {
   background-color: white;
-  margin-top: 100px;
+  margin-bottom: 100px;
   border-radius: 5px;
 }
 
@@ -28,7 +27,7 @@
 
 /* nav */
 .mslogo {
-  height: 20px;
+  height: 28px;
 }
 
 .msnav {
@@ -39,8 +38,12 @@
 
 /* jumbotron */
 
+header h1, h3 {
+  font-weight: bold;
+}
+
 .msformargin {
-  margin-bottom: 0;
+  margin-bottom: -12px;
 }
 
 .card  {
@@ -102,3 +105,29 @@
 }
 
 /* end buttons */
+
+.row {
+  margin-left: 0;
+}
+
+@media screen and (min-width: 768px ) {
+
+  .mslogo {
+    height: 20px;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .bgjumbotron {
+    margin-top: 180px;
+    margin-bottom: 180px;
+    text-align: left;
+  }
+
+  .bgform {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
