@@ -47,15 +47,15 @@
 
 /* jumbotron */
 
-header h1, h3, section h2 {
+header h1, h3, section h2, section h4{
   font-weight: bold;
 }
 
-section h3 {
+section h3 , h4 {
   color: #031b4e;
 }
 
-section h2 {
+section h2  {
   color: #031b4e;
   font-size: 30px;
 }
@@ -222,5 +222,8 @@ section {
     margin-bottom: 40px;
   }
 
+  .mstextal {
+    text-align: left;
+  }
 
 }
