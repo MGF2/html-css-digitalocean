@@ -55,17 +55,45 @@ section h3 {
   color: #031b4e;
 }
 
+section h2 {
+  color: #031b4e;
+  font-size: 30px;
+}
+
 section p {
   color: #5b6987;
 }
 
-section button {
+section .butmenu{
   padding: 20px;
   border: none;
   border-left: 2px solid #e5e8ed;
   background-color: transparent;
   color: #5b6987;
   font-size: 16px;
+}
+
+section .butcarousel{
+  padding: 3px;
+  border-radius: 50%;
+  border: 2px solid #0068ff;
+  background-color: transparent;
+  margin-right: 8px;
+
+}
+
+section .selected {
+  padding: 3px;
+  border-radius: 50%;
+  border: 2px solid #0068ff;
+  background-color: #0068ff;
+}
+.mspmar {
+  margin-bottom: 10px;
+}
+.ms-mcar {
+  padding-bottom: 30px;
+  font-size: 20px;
 }
 
 section i {
@@ -174,7 +202,7 @@ section {
   .mslogo {
     height: 20px;
   }
-  
+
   section .text {
     text-align: left;
   }
