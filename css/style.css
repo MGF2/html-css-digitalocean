@@ -1,7 +1,7 @@
 /* backgrounds */
 
 .bgblue {
-  background-color: #0061ff;
+  background-color: #005bff;
   color: white;
 
 }
@@ -31,6 +31,10 @@
   background: #031b4e url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bgdblue {
+  background-color: #010e28;
 }
 
 .b {
@@ -213,6 +217,48 @@ section {
   border-bottom: 1px solid white;
   padding: 0;
   /* margin-right: 60px; */
+}
+
+section .buttonbot {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  background-color: white;
+  font-weight: bold;
+  float:left;
+  color: #0061ff;
+  border-radius: 5px;
+  border: none;
+}
+
+footer a {
+  display: block;
+  font-size: 16px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #727988;
+}
+
+.msrowpad {
+  padding-top: 50px;
+
+}
+
+footer h5 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+footer img {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+
+footer p {
+  display: inline-block;
+  float: left;
+  padding-top: 15px;
 }
 
 @media screen and (min-width: 768px ) {
